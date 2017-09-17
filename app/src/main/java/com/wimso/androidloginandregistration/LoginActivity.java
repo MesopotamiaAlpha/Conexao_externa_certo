@@ -66,16 +66,16 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        String caption = "Nao tem uma conta? <b>Registro</b>";
+        String caption = "Nao tem uma conta? <b>Registre</b>";
         SpannableStringBuilder spannableStringBuilder = new SpannableStringBuilder(Html.fromHtml(caption));
         spannableStringBuilder.setSpan(new ClickableSpan() {
             @Override
             public void onClick(View view) {
                 RegisterActivity.start(LoginActivity.this);
             }
-        }, caption.indexOf("Registro") - 3, spannableStringBuilder.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        }, caption.indexOf("Registre") - 3, spannableStringBuilder.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         spannableStringBuilder.setSpan(new ForegroundColorSpan(Color.WHITE), caption
-                .indexOf("Registro") - 3, spannableStringBuilder.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                .indexOf("Registre") - 3, spannableStringBuilder.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         registerCaption.setText(spannableStringBuilder);
         registerCaption.setMovementMethod(LinkMovementMethod.getInstance());

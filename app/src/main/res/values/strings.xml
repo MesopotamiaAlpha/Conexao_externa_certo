@@ -2,15 +2,15 @@
     <string name="app_name">AndroidLoginAndRegistration</string>
 
     <string name="email">Email</string>
-    <string name="password">Password</string>
+    <string name="password">Senha</string>
     <string name="login">Login</string>
-    <string name="register">Register</string>
-    <string name="register_caption">Dont have an account? Register</string>
+    <string name="register">Registro</string>
+    <string name="register_caption">Nao tem uma conta? Registre</string>
     <string name="title_activity_register">RegisterActivity</string>
-    <string name="first_name">First Name</string>
-    <string name="last_name">Last Name</string>
+    <string name="first_name">Primeiro nome</string>
+    <string name="last_name">Sobrenome</string>
     <string name="logout">Logout</string>
 
-    <string name="greeting">Hi, %s :)</string>
+    <string name="greeting">Olá, %s :)</string>
 
 </resources>
