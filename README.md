@@ -1,5 +1,5 @@
 # AndroidLoginAndRegistration
-Aplicativo simples para Android com Login and Registration usando PHP &amp; MySQL
+<p>Aplicativo simples para Android com Login and Registration usando PHP &amp; MySQL</p>
 Primeiro teste desenvolvido para o TCC de Rede de Computadores do SENAI de São José dos Campos. O aplicativo android faz uma requisição ao servidor,dentro dos servidor tem uma pagina com json contendo todas as informações para a pesquisa, depois de filtrado as informações dentro doservidor ele retorna os resultados ao aplicativo android. 
 
 
